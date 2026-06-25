@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Katalog Brankas | Sakti Jaya Mandiri</title>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Segoe UI,sans-serif;
+}
+
+body{
+background:#0f172a;
+color:white;
+}
+
+header{
+background:linear-gradient(135deg,#0f172a,#1e3a8a);
+padding:80px 20px;
+text-align:center;
+}
+
+.logo{
+width:180px;
+margin-bottom:20px;
+}
+
+.container{
+max-width:1200px;
+margin:auto;
+padding:60px 20px;
+}
+
+.title{
+text-align:center;
+font-size:2.5rem;
+margin-bottom:50px;
+}
+
+.products{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+gap:30px;
+}
+
+.card{
+background:#1e293b;
+border-radius:15px;
+overflow:hidden;
+}
+
+.card img{
+width:100%;
+height:250px;
+object-fit:cover;
+}
+
+.content{
+padding:20px;
+}
+
+.content h3{
+color:#60a5fa;
+margin-bottom:10px;
+}
+
+.btn{
+display:inline-block;
+margin-top:15px;
+padding:12px 20px;
+background:#2563eb;
+color:white;
+text-decoration:none;
+border-radius:8px;
+}
+
+.btn:hover{
+background:#3b82f6;
+}
+
+.back{
+display:inline-block;
+margin-top:30px;
+color:#60a5fa;
+text-decoration:none;
+}
+
+footer{
+background:#020617;
+padding:30px;
+text-align:center;
+margin-top:50px;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+
+<img src="logo-sjm.png" class="logo">
+
+<h1>Katalog Brankas</h1>
+
+<p>
+Solusi Brankas Profesional untuk Bank, BPR,
+Koperasi, Toko Emas dan Perusahaan.
+</p>
+
+</header>
+
+<div class="container">
+
+<h2 class="title">Produk Brankas</h2>
+
+<div class="products">
+
+<div class="card">
+
+<img src="brankas1.jpg">
+
+<div class="content">
+
+<h3>Brankas Chubb Safes</h3>
+
+<p>
+Brankas berkualitas tinggi untuk kebutuhan
+perbankan dan perusahaan.
+</p>
+
+<a href="https://wa.me/6282136819370" class="btn">
+Minta Penawaran
+</a>
+
+</div>
+</div>
+
+<div class="card">
+
+<img src="brankas2.jpg">
+
+<div class="content">
+
+<h3>Brankas Tahan Api</h3>
+
+<p>
+Perlindungan dokumen dan aset penting
+dari risiko kebakaran.
+</p>
+
+<a href="https://wa.me/6282136819370" class="btn">
+Minta Penawaran
+</a>
+
+</div>
+</div>
+
+<div class="card">
+
+<img src="brankas3.jpg">
+
+<div class="content">
+
+<h3>Brankas Kantor</h3>
+
+<p>
+Cocok untuk kantor, koperasi,
+dan usaha retail.
+</p>
+
+<a href="https://wa.me/6282136819370" class="btn">
+Minta Penawaran
+</a>
+
+</div>
+</div>
+
+</div>
+
+<a href="index.html" class="back">
+← Kembali ke Beranda
+</a>
+
+</div>
+
+<footer>
+© 2026 Sakti Jaya Mandiri
+</footer>
+
+</body>
+</html>
